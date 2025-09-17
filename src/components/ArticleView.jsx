@@ -10,7 +10,7 @@ function ArticleView () {
     console.log('article id : ', id);
 
     // state
-    const [ article, setArticle ] = useState({});
+    const [ article, setArticle ] = useState(null);
     const [ loading, setLoading ] = useState(true);
     const [ error, setError ] = useState(null);
     const [ result, setResult ] = useState(null);
